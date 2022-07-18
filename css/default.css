@@ -194,17 +194,20 @@ a img {
 
 /*YUKIMIN BOOK*/
 .YukiminBook body {
-	color: #87968e;
-	background: #fff2e3;
+	color: #87968e56;
+	background: #bdc8f8f1;
 }
 
 .YukiminBook a {
-	color: #72b890;
+	color: #b872b8;
 }
 
 .YukiminBook .codrops-demos a {
-	background: #72b890;
+	background: #b872b8;
 	color: #fff;
+}
+.YukiminBook .Title_head{
+	color: rgba(7, 5, 5, 0.966);
 }
 /*COOKING BOOK*/
 .CookingBook body {
@@ -223,7 +226,7 @@ a img {
 /*DRINK MENU*/
 .DrinkBook body {
 	color: #87968e;
-	background: #fff2e3;
+	background: #1e0b63;
 }
 
 .DrinkBook a {
@@ -245,7 +248,7 @@ a img {
 }
 
 .PictureBook .codrops-demos a {
-	background: #72b890;
+	background: #6e706f;
 	color: #fff;
 }
 /*CREDITS*/
