@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="YukiminBook">
+<html id="PGclass" lang="en" class="YukiminBook">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TITLE -->
@@ -13,68 +13,26 @@
 	</head>
   <!-- CONTENT -->
 	<body>
+        <embed src="media/X279_Fleur_Bossa_Nova_Arrangement_2_061022.mp3" loop="true" autostart="true" width="2" height="0">
 		<div class="container">
 			<!-- TOP NAVIGATION -->
 
 			<header>
 				<h1 class="Title_head">Yukihana Books <span>With Love from the Discord Fan Server</span></h1>
 				<nav class="codrops-demos">
-					<a class="current-page" href="index.html">Lamy's Yukimin Book</a>
-					<a href="CookBook.html">Yukimin World Cookbook</a>
-					<a href="DrinkMenu.html">Yukimin Drink Menu</a>
-					<a href="PictureBook.html">Lamy's Picture Book</a>
-					<a href="Credits.html">Credits</a>
+					<a id="Yukiminlink" class="current-page" onclick="Yukimin();">Lamy's Yukimin Book</a>
+					<a id="Cookinglink" onclick="Cooking();" >Yukimin World Cookbook</a>
+					<a id="Drinkinglink" onclick="Drinking();">Yukimin Drink Menu</a>
+					<a id="Timelinelink" onclick="Timeline();">Lamy's Journey</a>
+					<a id="Creditslink" onclick="Credits();">Credits</a>
 				</nav>
 			</header>
 
       <!-- MAIN WRAPPER -->
-			<div class="main clearfix">
-				<div class="bb-custom-wrapper">
-					<nav id="page-left">
-						<a id="bb-nav-prev" href="#" class="bb-custom-icon bb-custom-icon-arrow-left">Previous</a>
-						<a id="bb-nav-first" href="#" class="bb-custom-icon bb-custom-icon-first">First page</a>
-					</nav>
-					<nav id="page-right">
-						<a id="bb-nav-next" href="#" class="bb-custom-icon bb-custom-icon-arrow-right">Next</a>
-						<a id="bb-nav-last" href="#" class="bb-custom-icon bb-custom-icon-last">Last page</a>
-					</nav>
-					<div id="bb-bookblock" class="bb-bookblock">
-						<div class="bb-item">
-							<a target="_blank" href=""><img src="images/Yukimin_book/Cover_page.png" alt="image01"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/nine_page.png"><img src="images/Yukimin_book/nine_let.png" alt="image02"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/FVG_page.png"><img src="images/Yukimin_book/FVG_let.png" alt="image03"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/Hyakuman_page.png"><img src="images/Yukimin_book/Hyakuman_let.png" alt="image04"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/King Jerky LC_Lapen_page.png"><img src="images/Yukimin_book/King Jerky LC_Lapen_let.png" alt="image05"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/ゴリちゃま_page.png"><img src="images/Yukimin_book/ゴリちゃま_let.png" alt="image06"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/ラミィをマミィとよびたい_page.png"><img src="images/Yukimin_book/ラミィをマミィとよびたい_let.png" alt="image06"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/学名PNI土龍_page.png"><img src="images/Yukimin_book/学名PNI土龍_let.png" alt="image06"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/狼炎こうた_page.png"><img src="images/Yukimin_book/狼炎こうた_let.png" alt="image06"/></a>
-						</div>
-						<div class="bb-item">
-							<a target="_blank" href="images/Yukimin_book/snek_page.png"><img src="images/Yukimin_book/snek_let.png" alt="image06"/></a>
-						</div>
-					</div>
-				</div>
-				<a class="youtube-link" href="https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw"><div class="bb-custom-icon bb-custom-icon-arrow-right"></div><h3>Visit Yukihana Lamy's Channel on Youtube!</h3></a>
-			</div>
-			<div id="jpId">div>
-		</div>
+
+    <iframe id="Ibook" src="YukiminBook.html" scrolling="no" width="100%" height="100%" style="border:none;">
+    </iframe>
+
 
     <!-- JAVASCRIPTS -->
 
@@ -83,8 +41,6 @@
 <script src="js/jquery.bookblock.js"></script>
 <script src="js/bookfunction.js"></script>
 <script src="js/book2.js"></script>
-<script src="js/jquery.jplayer.min.js"></script>
-<script src="js/jquery.jplayer.js"></script>
-<script src="js/music.js"></script>
+<script src="js/LinkController.js"></script>
 </body>
 </html>
