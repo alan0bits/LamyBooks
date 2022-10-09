@@ -41,10 +41,10 @@
 
 #page-left,
 #page-right {
-	display: flex;
+	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
-	top: calc(50% - 48px);
+	top: calc(50%);
 	height: 110px;
 }
 
