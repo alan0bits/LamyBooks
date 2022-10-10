@@ -23,6 +23,7 @@ body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #777;
 	background: #f6f6f6;
+	overflow-x: hidden;
 }
 
 a {
@@ -162,22 +163,6 @@ a img {
 .codrops-demos {
 	padding-top: 1em;
 	font-size: 0.9em;
-}
-
-.codrops-demos a {
-	display: inline-block;
-	margin: 0.2em;
-	padding: 0.45em 1em;
-	background: #999;
-	color: #fff;
-	font-weight: 700;
-	border-radius: 2px;
-}
-
-.codrops-demos a:hover,
-.codrops-demos a.current-page,
-.codrops-demos a.current-page:hover {
-	opacity: 0.6;
 }
 
 .codrops-nav {
