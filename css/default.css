@@ -21,9 +21,10 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	color: #777;
-	background: #f6f6f6;
+	color: #3f3f3f;
+	background: #bdc8f8f1;
 	overflow-x: hidden;
+	transition: background 0.7s ease;
 }
 
 a {
