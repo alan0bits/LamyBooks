@@ -42,7 +42,12 @@ function onResize(){
     var img = document.querySelector(".bb-item img");
     var displaySetting = img.parentElement.parentElement.style.display;
     img.parentElement.parentElement.style.display = "block";
-    document.getElementById("bb-bookblock").style.height = img.offsetHeight + "px";
+    var height = img.offsetHeight + "px";
+    document.getElementById("bb-bookblock").style.height = height;
+    document.getElementById("cook-bookblock").style.height = height;
+    document.getElementById("drink-bookblock").style.height = height;
+    document.getElementById("pict-bookblock").style.height = height;
+    document.getElementById("cred-bookblock").style.height = height;
     img.parentElement.parentElement.style.display = displaySetting;
 }
 var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#fff2e3", "#fff2e3"];
