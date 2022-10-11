@@ -14,9 +14,9 @@ var Page = (function() {
         shadowSides : 0.8,
         shadowFlip : 0.7
       } );
-      initEvents();
+      initEvents(config);
     },
-    initEvents = function() {
+    initEvents = function(config) {
 
       var $slides = config.$bookBlock.children();
 

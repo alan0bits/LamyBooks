@@ -40,6 +40,7 @@
 
 .page {
 	padding: 0 40px;
+	user-select: none;
 	width: 100vw;
 }
 
@@ -97,7 +98,7 @@
 	width: 100%;
 }
 
-#bb-bookblock {
+.bb-bookblock {
 	width: 100%;
 }
 
