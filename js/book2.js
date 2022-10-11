@@ -52,6 +52,7 @@ function onResize(){
 }
 var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#fff2e3", "#fff2e3"];
 var textColors = ["#3f3f3f", "#3f3f3f", "#ffffff", "#3f3f3f", "#3f3f3f"];
+var btnColors = ["#b872b8", "#72b890", "#72b890", "#6e706f", "#72b890"];
 function GoToPage(index){
     var sideScroller = document.getElementById("side-scroller");
     var buttons = document.querySelectorAll("header button");
@@ -63,6 +64,7 @@ function GoToPage(index){
     sideScroller.style.transform = "translateX(-"+index+"00vw)";
     document.body.style.background = backgrounds[index];
     document.body.style.color = textColors[index];
+    $('.codrops-demos button').css("background", btnColors[index]);
 }
 window.addEventListener("resize", function(){
     onResize();
