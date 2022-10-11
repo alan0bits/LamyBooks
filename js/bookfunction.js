@@ -1,21 +1,22 @@
 var Page = (function() {
 
+  /* example
   var config = {
       $bookBlock : $( '#bb-bookblock' ),
       $navNext : $( '#bb-nav-next' ),
       $navPrev : $( '#bb-nav-prev' ),
       $navFirst : $( '#bb-nav-first' ),
       $navLast : $( '#bb-nav-last' )
-    },
-    init = function() {
+    },*/
+    init = function(config) {
       config.$bookBlock.bookblock( {
         speed : 800,
         shadowSides : 0.8,
         shadowFlip : 0.7
       } );
-      initEvents();
+      initEvents(config);
     },
-    initEvents = function() {
+    initEvents = function(config) {
 
       var $slides = config.$bookBlock.children();
 
@@ -75,8 +76,7 @@ var Page = (function() {
 
     return { init : init };
 
-  
+
 
 
 })();
-
