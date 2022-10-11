@@ -66,7 +66,7 @@ function GoToPage(index){
     document.body.style.color = textColors[index];
     $('.codrops-demos button').css("background", btnColors[index]);
 }
-window.addEventListener("resize", function(){
+document.getElementById("firstImg").addEventListener('load', (event) => {
     onResize();
 });
 onResize();
