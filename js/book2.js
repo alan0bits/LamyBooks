@@ -61,13 +61,13 @@ function GoToPage(index){
         currentSelected.classList.remove("current-page");
     }
     buttons[index].classList.add("current-page");
-    
+
     sideScroller.style.transform = "translateX(-"+index+"00vw)";
     document.body.style.background = backgrounds[index];
     document.body.style.color = textColors[index];
     $('.codrops-demos button').css("background", btnColors[index]);
 }
-window.addEventListener("resize", function(){
+document.getElementById("firstImg").addEventListener('load', (event) => {
     onResize();
 });
 onResize();
