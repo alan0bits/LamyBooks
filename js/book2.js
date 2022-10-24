@@ -50,9 +50,9 @@ function onResize(){
     document.getElementById("cred-bookblock").style.height = height;
     img.parentElement.parentElement.style.display = displaySetting;
 }
-var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#fff2e3", "#fff2e3"];
+var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#E7BAE4", "#fff2e3"];
 var textColors = ["#3f3f3f", "#3f3f3f", "#ffffff", "#3f3f3f", "#3f3f3f"];
-var btnColors = ["#b872b8", "#72b890", "#72b890", "#6e706f", "#72b890"];
+var btnColors = ["#b872b8", "#415B9F", "#C05131", "#72b890", "#72b890"];
 function GoToPage(index){
     var sideScroller = document.getElementById("side-scroller");
     var buttons = document.querySelectorAll("header button");
