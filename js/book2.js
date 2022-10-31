@@ -71,3 +71,8 @@ document.getElementById("firstImg").addEventListener('load', (event) => {
     onResize();
 });
 onResize();
+
+function GotoJP() {
+    //Switch to JP page
+    window.location.href = 'https://lamybooksjp.netlify.app'; 
+}
