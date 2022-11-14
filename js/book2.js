@@ -50,9 +50,9 @@ function onResize(){
     document.getElementById("cred-bookblock").style.height = height;
     img.parentElement.parentElement.style.display = displaySetting;
 }
-var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#E7BAE4", "#fff2e3"];
+var backgrounds = ["#bdc8f8f1", "#fff2e3", "#1e0b63", "#E7BAE4", "#C8F8F1"];
 var textColors = ["#3f3f3f", "#3f3f3f", "#ffffff", "#3f3f3f", "#3f3f3f"];
-var btnColors = ["#b872b8", "#415B9F", "#C05131", "#72b890", "#72b890"];
+var btnColors = ["#b872b8", "#415B9F", "#C05131", "#72b890", "#b872b8"];
 function GoToPage(index){
     var sideScroller = document.getElementById("side-scroller");
     var buttons = document.querySelectorAll("header button");
@@ -65,6 +65,8 @@ function GoToPage(index){
     document.body.style.background = backgrounds[index];
     document.body.style.color = textColors[index];
     $('.codrops-demos button').css("background", btnColors[index]);
+   
+    
 }
 window.addEventListener("resize", onResize.bind(null));
 document.getElementById("firstImg").addEventListener('load', (event) => {
